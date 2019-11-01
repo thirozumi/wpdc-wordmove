@@ -2,8 +2,8 @@
 
 ## Setup
 
-Install docker and docker-compose to your OS.
-https://docs.docker.com/install/
+Install docker and docker-compose to your OS.    
+https://docs.docker.com/install/    
 https://docs.docker.com/compose/install/
 
 Run `docker -v && docker-compose -v` to check if you already have installed Docker and docker-compose.
