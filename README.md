@@ -12,24 +12,25 @@ Edit `.env` to configration.
 
 If installed, just run `docker-compose up -d` after running Docker.
 
+Develop below by default    
+http://localhost:3000
+
 ## Deploy
 
-### SSH
+First, enter into container
+
+```
+$ sh wormove.sh
+```
+
+And then setup SSH first.
 
 ```
 # Launch ssh-agent
 $ ssh-agent bash
 
-# Add ssh-agent
+# Add ssh-agent (configure key if needed)
 $ ssh-add /home/.ssh/id_rsa
-```
-
-### Wordmove
-
-Enter into container
-
-```
-$ sh wormove.sh
 ```
 
 The following command pushes all data to the production including database and all files.
